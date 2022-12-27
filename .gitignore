@@ -1,1 +1,7 @@
 node_modules
+.cache
+public
+.env.development
+.env.production
+.txt
+.history
