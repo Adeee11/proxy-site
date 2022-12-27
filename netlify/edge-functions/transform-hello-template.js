@@ -10,6 +10,7 @@ export default async (request, context) => {
     const regex = /LOCATION_UNKNOWN/i;
 
     const location = `${context.geo.city} , ${context.geo.country.name}`
+    console.log('location', location);
 
     const updatedPage = page.replace(regex, location);
 
