@@ -5,3 +5,7 @@
  [[edge_functions]]
  path="/home"
  function="transform-hello-template"
+
+  [[edge_functions]]
+ path="/new"
+ function="redirect"
