@@ -1,7 +1,7 @@
 export default async (request, context) => {
     return new Response("Hello from Edge Function!", {
         headers: {
-            "content-type": "texr/html",
+            "content-type": "text/html",
         }
     })
 }
