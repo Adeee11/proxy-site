@@ -3,5 +3,5 @@
  function="hello"
 
  [[edge_functions]]
- path="/hello-template"
+ path="/home"
  function="transform-hello-template"
