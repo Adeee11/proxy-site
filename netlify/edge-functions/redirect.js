@@ -7,7 +7,7 @@ export default async (request, context) => {
         status: 302,
         headers
     }
-    const r = Response("do it!", init)
+    const r = new Response("do it!", init)
     console.log("r", r)
     // const response = await context.next();
     // const page = await response.text();
