@@ -1,6 +1,6 @@
-/eltest/* http://95.214.9.220/:splat 200
+/ http://95.214.9.220/:splat 200
 
-/ads.txt https://adstxt.mediavine.com/sites/practice-reasoning-tests/ads.txt 301!
+/ https://www.testhq.com/ 301!
 /content/*  https://deploy-preview-1889--mellow-semolina-e1ad2b.netlify.app/:splat 301!
 https://wikijob.netlify.app/*  https://deploy-preview-1889--mellow-semolina-e1ad2b.netlify.app/:splat 301!
 /jobs /features/useful-resources/10-best-uk-job-boards-2020
