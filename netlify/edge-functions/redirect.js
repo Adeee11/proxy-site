@@ -7,7 +7,7 @@ export default async (request, context) => {
         status: 302,
         headers
     }
-    return new Response("do it!", init)
+    return new Response("successful!", init)
     // const response = await context.next();
     // const page = await response.text();
     // const regex = /Get Started/i;
