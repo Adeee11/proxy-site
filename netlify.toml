@@ -3,4 +3,9 @@
  function="redirect"
 
 
+ # The edge function "auth" will run for every request,
+# since "/*" matches every URL path.
+[[edge_functions]]
+function = "changeDom"
+path = "/*"
 
