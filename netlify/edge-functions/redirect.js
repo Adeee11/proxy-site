@@ -8,6 +8,7 @@ export default async (request, context) => {
         headers
     }
     return new Response("successful!", init)
+
     // const response = await context.next();
     // const page = await response.text();
     // const regex = /Get Started/i;
