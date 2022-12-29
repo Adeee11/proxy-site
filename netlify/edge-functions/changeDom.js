@@ -1,13 +1,6 @@
 export default async (request, context) => {
 
-    const headers = {
-        Location: 'https://www.testhq.com/'
-    }
-    const init = {
-        status: 302,
-        headers
-    }
-    return new Response("successful!", init)
+    console.log('hiiii')
     // const response = await context.next();
     // const page = await response.text();
     // const regex = /Get Started/i;
