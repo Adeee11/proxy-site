@@ -5,4 +5,4 @@
 # since "/*" matches every URL path.
 [[edge_functions]]
 function = "changeDom"
-path = "/*"
+path = "/new"
