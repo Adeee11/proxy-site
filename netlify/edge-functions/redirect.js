@@ -1,19 +1,25 @@
+
+// export default () => {
+//     return new Response.redirect("https://www.testhq.com/", 302)
+// }
+
+
+
 export default async (request, context) => {
+    let promise = new Promise(async (resolve, reject) => {
+        return new Response.redirect("https://www.testhq.com/", 302)
+    });
+    let result = await promise; // wait until the promise resolves (*)
+    if (result) {
+        const response = await context.next();
+        const page = await response.text();
+        const regex = /Get Started/i;
+        const msg = `Hiii`
+        const updatedPage = page.replace(regex, msg);
 
-    const headers = {
-        Location: 'https://www.testhq.com/'
+        return new Response("helllo")
     }
-    const init = {
-        status: 302,
-        headers
-    }
-    return new Response("successful!", init)
-    // const response = await context.next();
-    // const page = await response.text();
-    // const regex = /Get Started/i;
-    // const msg = `Hiii`
-    // const updatedPage = page.replace(regex, msg);
-
-    // return new Response(updatedPage, response)
 }
+
+
 
