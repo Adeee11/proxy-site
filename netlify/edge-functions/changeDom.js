@@ -5,7 +5,6 @@ export default async (request, context) => {
     // const msg = `Hiii`
     // const updatedPage = page.replace(regex, msg);
 
-    // return new Response("helllo")
-    return console.log('context', context)
+    return new Response("helllo")
 }
 
