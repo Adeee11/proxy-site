@@ -4,7 +4,7 @@ import React from 'react'
 const Home = () => {
     var config = {
         method: 'get',
-        url: 'https://04d4-122-176-42-49.in.ngrok.io/modify',
+        url: 'www.testhq.com',
         headers: {
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET",
