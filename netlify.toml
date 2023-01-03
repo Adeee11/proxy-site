@@ -1,11 +1,6 @@
-  [[edge_functions]]
- path="/new"
- function="redirect"
-
 
  # The edge function will run for every request,
 # since "/*" matches every URL path.
 [[edge_functions]]
 function = "changeDom"
-path = "/*"
-
+path = "/home"
