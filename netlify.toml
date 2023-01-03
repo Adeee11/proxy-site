@@ -3,10 +3,3 @@
 [[edge_functions]]
 function = "changeDom"
 path = "/home"
-
-[[redirects]]
-  from = "/home"
-  to = "https://www.testhq.com/"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
