@@ -1,10 +1,5 @@
-
- # The edge function will run for every request,
+# The edge function will run for every request,
 # since "/*" matches every URL path.
 [[edge_functions]]
 function = "changeDom"
 path = "/home"
-
- [[edge_functions]]
- path="/hello-template"
- function="transform-hello-template"
