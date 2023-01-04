@@ -1,5 +1,3 @@
-# The edge function will run for every request,
-# since "/*" matches every URL path.
 [[edge_functions]]
 function = "changeDom"
 path = "/"
